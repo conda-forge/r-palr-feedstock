@@ -14,9 +14,8 @@ Summary: Colour palettes for data, based on some well known public data sets.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-palr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-palr-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-palr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-palr-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-palr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-palr-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-palr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-palr-feedstock)
 
 Current release info
 ====================
