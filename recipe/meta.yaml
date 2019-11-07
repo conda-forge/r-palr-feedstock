@@ -1,4 +1,4 @@
-{% set version = '0.0.6' %}
+{% set version = "0.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/palr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/palr/palr_{{ version }}.tar.gz
-  sha256: 4e648e34b468f5c7b678a6d52fc712d21081d61ddba984cb756302aad9046c98
+  sha256: da6367ce20125b8f652cb992ebe1d0ff6f53eedf1097237cea55e16fb5540bec
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -44,8 +44,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
