@@ -3,7 +3,7 @@ About r-palr
 
 Home: https://github.com/AustralianAntarcticDivision/palr
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-palr-feedstock/blob/master/LICENSE.txt)
 
