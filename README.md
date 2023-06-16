@@ -1,11 +1,11 @@
-About r-palr
-============
+About r-palr-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-palr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/AustralianAntarcticDivision/palr
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-palr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Colour palettes for data, based on some well known public data sets.
 
