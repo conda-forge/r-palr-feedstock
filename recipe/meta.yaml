@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/palr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/palr/palr_{{ version }}.tar.gz
-  sha256: 079455452139c6558d740c3dbca35b17f27a19cdcb2b18b427ef330a37996275
+  sha256: c65d3da61f73f17cfcb8aa65a3acfbd193f3b029addd5d5247a0a9ab2a395eb5
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
